@@ -14,7 +14,7 @@ Write a Python program that:
      - `timestamp` (ISO 8601 string, e.g. `"2025-08-26T15:01:10"`)  
 
 2. For each incoming message:  
-   - Call the **OpenAI GPT API (`gpt-3.5-turbo`)** to generate a short NPC reply. (You can use any) 
+   - Call the **OpenAI GPT API (`gpt-3.5-turbo`)** to generate a short NPC reply. (You can use any other AI model too)
    - Maintain **conversation state per player**:  
      - Keep the last 3 messages for each player.  
      - Pass this state along with the current message so replies feel consistent.  
@@ -86,3 +86,13 @@ python npc_chat.py
 
 👉 Using AI is encouraged. We’re interested in seeing *how you think with AI*, how you structure prompts, and how you refine outputs.  
 **Please don’t claim you avoided AI use to “look better” — this does not give extra credit.**
+
+## 📤 How to Submit
+
+- Clone this repository to your own GitHub account. (create one if you haven't)
+- Add your solution (npc_chat.py and any supporting files).
+    1. Include: Your code `npc_chat.py`
+    2. Include: the output logs (sample run)
+    3. Include: Links to all chatgpt / claude / any other AI tool conversations that you used or `ai_prompts.txt`
+- Make your repository public.
+- Share the repo link to us
